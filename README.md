@@ -39,9 +39,34 @@ According to the functionality that operating Systems provides the types are:
 
 ---
 
-### What is a process?
+### What is Kernel? Explain the types of kernel.
+The kernel is basically a computer program usually considered as a central component or module of OS. It is responsible for handling, managing, and controlling all operations of computer systems and hardware. Whenever the system starts, the kernel is loaded first and remains in the main memory. It also acts as an interface between user applications and hardware.
+
+#### Types of Kernel:
+
+Though there are many types of kernels, only two of them are the most popular:
+
+**Monolithic Kernel**: In this type of OS kernel, all user and kernel services reside in the same memory space. Old operating systems would use this type of kernel. Some examples are Windows 95, 98, and Unix. Linux also uses it.
+
+**MicroKernel**: This kernel type is small, and all the user and kernel services reside in different memory addresses. Operating systems like macOS and Windows use microkernels.
+
+---
+
+### Difference between Kernel and OS?
+
+**Kernel**: Kernel is a system program that controls all programs running on the computer. The kernel is basically a bridge between the software and hardware of the system.
+
+**Operating System**: Operating system is a system program that runs on the computer to provide an interface to the computer user so that they can easily operate on the computer.
+
+<img src="/assets/images/os-kernel.png" width="400" height="200">
+
+---
+
+### What is a process? Name all the states of a Process
 
 A process is a program in execution. when a program goes to RAM and start running then become a process.
+
+<img src="/assets/images/process.png" width="600" height="200">
 
 ---
 
@@ -65,9 +90,29 @@ Basically, It is a path of execution that is composed of the program counter, th
 
 ---
 
-### What is starvation?
+### What is starvation and Aging?
 
-When a program is in process, it does not have all the resources to execute because other processes use the same resources. This problem of not getting all the needed resources is known as starvation.
+**Starvation**: It is generally a problem that usually occurs when a process has not been able to get the required resources it needs for progress with its execution for a long period of time. In this condition, low priority processes get blocked and only high priority processes proceed towards completion because of which low priority processes suffer from lack of resources. 
+
+**Aging**: It is a technique that is used to overcome the situation or problem of starvation. It simply increases the priority of processes that wait in the system for resources for a long period of time. It is considered the best technique to resolve the problem of starvation as it adds an aging factor to the priority of each and every request by various processes for resources. It also ensures that low-level queue jobs or processes complete their execution. 
+
+
+---
+
+### What is Context Switching?
+Context switching is basically a process of saving the context of one process and loading the context of another process. It is one of the cost-effective and time-saving measures executed by CPU because it allows multiple processes to share a single CPU. This technique is used by OS to switch a process from one state to another i.e., from running state to ready state.
+
+---
+
+### Difference between preemptive and non-preemptive scheduling?
+
+| Preemptive Scheduling | Non-Preemptive Scheduling   | 
+| ------------- |-------------| 
+| Processes are allocated to the CPU for a limited period. | A process remains in the CPU till it gets entirely executed. | 
+| If a new process comes with high priority, then the ongoing CPU process must stop.    | Here the priority of the process does not matter. The new process has to wait until the first process finishes execution.    |  
+| There is a continuous switching between the running and ready states of the processes. | This is not the case in non-preemptive scheduling. |  
+| Preemptive schedules the process based on their priority. | Non-preemptive uses the process of burst time. |  
+| There is a high probability that the process with less priority will starve.  | Here process with less burst time will starve.   |  
 
 ---
 
@@ -221,6 +266,13 @@ It is a scenario when continuous page fault and paging activities occur. Thrashi
 
 
 ---
+
+### What is Spooling?
+Spooling is a process in which data is temporarily held to be used and executed by a device, program, or system. Data is sent to and stored in memory or other volatile storage until the program or computer requests it for execution.
+
+---
+
+
 
 ### Thanks for Reading 
 

@@ -6,7 +6,7 @@ Here we have last minute revision notes of Operating System. These questions wil
 
 ---
 
-<img src="/assets/images/OS_Interview.png" width="500" height="200">
+<img src="/assets/images/os_interview.webp" width="500" height="200">
 
 ### What is an operating system?
 
@@ -145,7 +145,7 @@ There are two main types of semaphores:
 
 It is an abbreviation for **Mut** ual **Ex** clusion. It is a userspace program object that helps multiple threads to access the same resource, but not simultaneously. The sole purpose of a mutex is to lock a thread with a resource so the other threads can not use the same resource until the first thread finish executing.
 
-<img src="/assets/images/mutex.png" width="600" height="200">
+<img src="/assets/images/Mutex-diagram.png" width="600" height="200">
 
 ---
 

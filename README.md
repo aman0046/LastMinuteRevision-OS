@@ -145,7 +145,7 @@ There are two main types of semaphores:
 
 It is an abbreviation for **Mut** ual **Ex** clusion. It is a userspace program object that helps multiple threads to access the same resource, but not simultaneously. The sole purpose of a mutex is to lock a thread with a resource so the other threads can not use the same resource until the first thread finish executing.
 
-<img src="/assets/images/mutex.png" width="400" height="200">
+<img src="/assets/images/mutex.png" width="600" height="200">
 
 ---
 
@@ -176,7 +176,7 @@ Demand paging is a concept used by a virtual machine. Only a part of the process
 ### What is cache memory?
 It is a volatile computer memory directly attached to the register, which provides high-speed data access to the processor.
 
-<img src="/assets/images/cache.png" width="400" height="200">
+<img src="/assets/images/cache.png" width="500" height="200">
 
 ---
 

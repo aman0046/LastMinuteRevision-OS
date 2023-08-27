@@ -8,7 +8,7 @@ Here we have last minute revision notes of Operating System. These questions wil
 
 <img src="/assets/images/os-interview.png" width="400" height="200">
 
-### What is an operating system?
+### 1) What is an operating system?
 
 It is a program that provides an interface between the software and hardware of a computer. In other words, an operating system offers an environment for the user to execute software using hardware.
 
@@ -16,7 +16,7 @@ It is a program that provides an interface between the software and hardware of 
 
 ---
 
-### Types of operating system?
+### 2) Types of operating system?
 
 According to the functionality that operating Systems provides the types are:
 
@@ -35,7 +35,7 @@ According to the functionality that operating Systems provides the types are:
 
 ---
 
-### What is Kernel? Explain the types of kernel.
+### 3) What is Kernel? Explain the types of kernel.
 The kernel is basically a computer program usually considered as a central component or module of OS. It is responsible for handling, managing, and controlling all operations of computer systems and hardware. Whenever the system starts, the kernel is loaded first and remains in the main memory. It also acts as an interface between user applications and hardware.
 
 <img src="/assets/images/kernel.png" width="400" height="200">
@@ -50,7 +50,7 @@ Though there are many types of kernels, only two of them are the most popular:
 
 ---
 
-### Difference between Kernel and OS?
+### 4) Difference between Kernel and OS?
 
 **Kernel**: Kernel is a system program that controls all programs running on the computer. The kernel is basically a bridge between the software and hardware of the system.
 
@@ -60,7 +60,7 @@ Though there are many types of kernels, only two of them are the most popular:
 
 ---
 
-### What is a process? Name all the states of a Process
+### 5) What is a process? Name all the states of a Process
 
 A process is a program in execution. when a program goes to RAM and start running then become a process.
 
@@ -71,14 +71,14 @@ All the states of process are defined in the image below:
 
 ---
 
-### What is a thread?
+### 6) What is a thread?
 
 A thread is a lightweight process that shares the same memory space as the parent process. It allows multiple tasks to run concurrently within a single process.
 Basically, It is a path of execution that is composed of the program counter, thread id, stack, and set of registers within the process.
 
 ---
 
-### What is difference between process and thread?
+### 7) What is difference between process and thread?
 
 | Process    | Thread    | 
 | ------------- |-------------| 
@@ -91,7 +91,7 @@ Basically, It is a path of execution that is composed of the program counter, th
 
 ---
 
-### What is starvation and Aging?
+### 8) What is starvation and Aging?
 
 **Starvation**: It is generally a problem that usually occurs when a process has not been able to get the required resources it needs for progress with its execution for a long period of time. In this condition, low priority processes get blocked and only high priority processes proceed towards completion because of which low priority processes suffer from lack of resources. 
 
@@ -100,12 +100,12 @@ Basically, It is a path of execution that is composed of the program counter, th
 
 ---
 
-### What is Context Switching?
+### 9) What is Context Switching?
 Context switching is basically a process of saving the context of one process and loading the context of another process. It is one of the cost-effective and time-saving measures executed by CPU because it allows multiple processes to share a single CPU. This technique is used by OS to switch a process from one state to another i.e., from running state to ready state.
 
 ---
 
-### Difference between preemptive and non-preemptive scheduling?
+### 10) Difference between preemptive and non-preemptive scheduling?
 
 | Preemptive Scheduling | Non-Preemptive Scheduling   | 
 | ------------- |-------------| 
@@ -117,7 +117,7 @@ Context switching is basically a process of saving the context of one process an
 
 ---
 
-### What is a Scheduling Algorithm? Name different types of scheduling algorithms.
+### 11) What is a Scheduling Algorithm? Name different types of scheduling algorithms.
 
 A scheduling algorithm is a process that is used to improve efficiency by utilizing maximum CPU and providing minimum waiting time to tasks. It is used to allocate resources among various competing tasks. 
 
@@ -145,7 +145,7 @@ Multilevel queue scheduling is a type of CPU scheduling in which the processes i
 
 ---
 
-### What is a deadlock?
+### 12) What is a deadlock?
 
 When two processes are trying to execute simultaneously and waiting for each other to finish the execution, as they depend on each other, this halt in execution is known as a deadlock. When a deadlock occurs in the program, the system usually freezes.
 
@@ -153,7 +153,7 @@ When two processes are trying to execute simultaneously and waiting for each oth
 
 ---
 
-### What are the necessary conditions for a deadlock?
+### 13) What are the necessary conditions for a deadlock?
 
 The necessary conditions for a deadlock are as follows:
 
@@ -164,17 +164,17 @@ The necessary conditions for a deadlock are as follows:
 
 ---
 
-### What is process synchronization?
+### 14) What is process synchronization?
 When the race condition occurs, it can lead to an undesirable outcome. So to prevent the race condition, we follow a process known as synchronization. Here, we ensure that only one process executes at a time.
 
 ---
 
-### What is a critical section?
+### 15) What is a critical section?
 The program will behave oddly if program parts perform concurrent access to the shared resources. So to protect the shared resources of a program, we create a protected section known as the critical section or critical region. A critical section can only execute one process at a time, eliminating the problems concurrent accessing resources can cause.
 
 ---
 
-### What do you mean by Semaphore in OS?
+### 16) What do you mean by Semaphore in OS?
 
 Semaphore is a synchronization mechanism that is used to control access to shared resources in multi-threaded or multi-process systems. It maintains a count of available resources and provides two atomic operations: wait() and signal(). It can have a count greater than one, allowing it to control access to a finite pool of resources.
 
@@ -187,7 +187,7 @@ There are two main types of semaphores:
 
 ---
 
-### What do you know about mutex?
+### 17) What do you know about mutex?
 
 It is an abbreviation for **Mut** ual **Ex** clusion. It is a userspace program object that helps multiple threads to access the same resource, but not simultaneously. The sole purpose of a mutex is to lock a thread with a resource so the other threads can not use the same resource until the first thread finish executing.
 
@@ -195,18 +195,18 @@ It is an abbreviation for **Mut** ual **Ex** clusion. It is a userspace program 
 
 ---
 
-### What is virtual memory?
+### 18) What is virtual memory?
 Virtual memory is a technique that enables a computer to use more memory than it physically has by temporarily transferring data from the RAM to the hard disk. It provides a way to run large applications that require more memory than the system has.
 
 ---
 
-### What is demand paging?
+### 19) What is demand paging?
 Demand paging is a concept used by a virtual machine. Only a part of the process needs to be present in the main memory to execute some process, meaning that only a few pages will be present in the main memory at any time, and the rest will be kept in the secondary memory.
 
 ---
 
 
-### Differentiate between paging and segmentation?
+### 20) Differentiate between paging and segmentation?
 
 
 | Paging | Segmentation | 
@@ -219,25 +219,25 @@ Demand paging is a concept used by a virtual machine. Only a part of the process
 
 ---
 
-### What is cache memory?
+### 21) What is cache memory?
 It is a volatile computer memory directly attached to the register, which provides high-speed data access to the processor.
 
 <img src="/assets/images/cache.png" width="500" height="200">
 
 ---
 
-### What is a page in OS?
+### 22) What is a page in OS?
 A page can be defined as the smallest unit of data, a fixed-length contiguous block of virtual memory.
 
 ---
 
-### Explain page frames.
+### 23) Explain page frames.
 When a page is transferred from the secondary memory to the main memory, it requires a fixed length of a continuous physical memory block, known as a page frame. The operating system's job is to map the pages in the page frames.
 
 ---
 
 
-### What is the difference between logical and physical addresses?
+### 24) What is the difference between logical and physical addresses?
 
 | Logical Address    | Physical Address   | 
 | ------------- |-------------| 
@@ -247,17 +247,17 @@ When a page is transferred from the secondary memory to the main memory, it requ
 
 ---
 
-### What is the page fault?
+### 25) What is the page fault?
 An error occurs when the CPU tries to access a specific block of memory address not present in the physical memory (RAM).
 
 ---
 
-### What is thrashing?
+### 26) What is thrashing?
 It is a scenario when continuous page fault and paging activities occur. Thrashing could lead to a program collapse and degraded CPU performance.
 
 ---
 
-### What is different between primary memory and secondary memory.
+### 27) What is different between primary memory and secondary memory.
 | Primary Memory    | Secondary Memory   | 
 | ------------- |-------------| 
 | Primary memory is temporary.    | Secondary memory is permanent. | 
@@ -268,12 +268,12 @@ It is a scenario when continuous page fault and paging activities occur. Thrashi
 
 ---
 
-### What is Spooling?
+### 28) What is Spooling?
 Spooling is a process in which data is temporarily held to be used and executed by a device, program, or system. Data is sent to and stored in memory or other volatile storage until the program or computer requests it for execution.
 
 ---
 
-### Belady’s Anomaly
+### 29) Belady’s Anomaly
 
 Belady’s anomaly is the name given to the phenomenon where increasing the number of page frames results in an increase in the number of page faults for a given memory access pattern.
 

@@ -20,27 +20,25 @@ It is a program that provides an interface between the software and hardware of 
 
 According to the functionality that operating Systems provides the types are:
 
-- Single Tasking System: This OS are very very basic. They do not provide multiple functionality they just exist in Ram. They are loaded in the ram then they allow only one processor to be there in the Ram at a time and to be run at a time.
+- **Single Tasking System**: This OS are very very basic. They do not provide multiple functionality they just exist in Ram. They are loaded in the ram then they allow only one processor to be there in the Ram at a time and to be run at a time.
     - Eg: MS-DOC
-
-
-
----
-
-### What is the difference between multitasking and multiprocessing OS?
-
-**Multitasking**: It is a system that allows more efficient use of computer hardware. This system works on more than one task at one time by rapidly switching between various tasks. These systems are also known as time-sharing systems. 
+ 
+- **Multitasking**: It is a system that allows more efficient use of computer hardware. This system works on more than one task at one time by rapidly switching between various tasks. These systems are also known as time-sharing systems.
 
 <img src="/assets/images/M-OS.png" width="400" height="200">
 
-**Multiprocessing**: It is a system that allows multiple or various processors in a computer to process two or more different portions of the same program simultaneously. It is used to complete more work in a shorter period of time. 
+- **Multiprocessing**: It is a system that allows multiple or various processors in a computer to process two or more different portions of the same program simultaneously. It is used to complete more work in a shorter period of time. 
 
 <img src="/assets/images/Multiprocessing-OS.jpeg" width="400" height="200">
+
+- **Multithreading**: In multithreading you have multiple threads running within a process in interleaved fashion
 
 ---
 
 ### What is Kernel? Explain the types of kernel.
 The kernel is basically a computer program usually considered as a central component or module of OS. It is responsible for handling, managing, and controlling all operations of computer systems and hardware. Whenever the system starts, the kernel is loaded first and remains in the main memory. It also acts as an interface between user applications and hardware.
+
+<img src="/assets/images/kernel.png" width="400" height="200">
 
 #### Types of Kernel:
 
@@ -65,6 +63,9 @@ Though there are many types of kernels, only two of them are the most popular:
 ### What is a process? Name all the states of a Process
 
 A process is a program in execution. when a program goes to RAM and start running then become a process.
+
+All the states of process are defined in the image below:
+
 
 <img src="/assets/images/process.png" width="600" height="200">
 

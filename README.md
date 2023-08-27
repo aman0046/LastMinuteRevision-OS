@@ -6,7 +6,7 @@ Here we have last minute revision notes of Operating System. These questions wil
 
 ---
 
-<img src="/assets/images/OS_Interview.png" width="600" height="200">
+<img src="/assets/images/OS_Interview.png" width="500" height="200">
 
 ### What is an operating system?
 
@@ -31,11 +31,11 @@ According to the functionality that operating Systems provides the types are:
 
 **Multitasking**: It is a system that allows more efficient use of computer hardware. This system works on more than one task at one time by rapidly switching between various tasks. These systems are also known as time-sharing systems. 
 
-<img src="/assets/images/Multitasking-OS.png" width="600" height="200">
+<img src="/assets/images/M-OS.png" width="400" height="200">
 
 **Multiprocessing**: It is a system that allows multiple or various processors in a computer to process two or more different portions of the same program simultaneously. It is used to complete more work in a shorter period of time. 
 
-<img src="/assets/images/Multiprocessing-OS.png" width="600" height="200">
+<img src="/assets/images/Multiprocessing-OS.jpeg" width="400" height="200">
 
 ---
 
@@ -77,6 +77,8 @@ A scheduling algorithm is a process that is used to improve efficiency by utiliz
 
 Types of Scheduling Algorithm:
 
+<img src="/assets/images/scheduling-algorithms.jpg" width="400" height="200">
+
 #### 1. First Come First Serve (FCFS): 
 FCFS is the simplest scheduling algorithm. The idea is the process that comes first will scheduled first. FCFS is a non preemptive (when you assign a process to a processor you can't take it back) process. FCFS can cause starvation problems in which the process does not get the proper resources.
 #### 2. Shortest Job First: 
@@ -101,7 +103,7 @@ Multilevel queue scheduling is a type of CPU scheduling in which the processes i
 
 When two processes are trying to execute simultaneously and waiting for each other to finish the execution, as they depend on each other, this halt in execution is known as a deadlock. When a deadlock occurs in the program, the system usually freezes.
 
-<img src="/assets/images/deadlock.png" width="600" height="200">
+<img src="/assets/images/deadlock.png" width="400" height="200">
 
 ---
 
@@ -143,6 +145,8 @@ There are two main types of semaphores:
 
 It is an abbreviation for **Mut** ual **Ex** clusion. It is a userspace program object that helps multiple threads to access the same resource, but not simultaneously. The sole purpose of a mutex is to lock a thread with a resource so the other threads can not use the same resource until the first thread finish executing.
 
+<img src="/assets/images/mutex.png" width="400" height="200">
+
 ---
 
 ### What is virtual memory?
@@ -171,6 +175,8 @@ Demand paging is a concept used by a virtual machine. Only a part of the process
 
 ### What is cache memory?
 It is a volatile computer memory directly attached to the register, which provides high-speed data access to the processor.
+
+<img src="/assets/images/cache.png" width="400" height="200">
 
 ---
 

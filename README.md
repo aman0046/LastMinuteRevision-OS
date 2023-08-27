@@ -6,7 +6,7 @@ Here we have last minute revision notes of Operating System. These questions wil
 
 ---
 
-<img src="/assets/images/os_interview.webp" width="500" height="200">
+<img src="/assets/images/os-interview.png" width="400" height="200">
 
 ### What is an operating system?
 
